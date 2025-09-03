@@ -5,8 +5,6 @@
   "properties": {
     "parts": {
       "type": "array",
-      "minItems": 13,
-      "maxItems": 13,
       "items": {
         "type": "object",
         "properties": {
