@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Outline",
+  "type": "object",
+  "properties": {
+    "parts": {
+      "type": "array",
+      "minItems": 13,
+      "maxItems": 13,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "title": { "type": "string", "maxLength": 60 }
+        },
+        "required": ["id", "title"]
+      }
+    }
+  },
+  "required": ["parts"]
+}
