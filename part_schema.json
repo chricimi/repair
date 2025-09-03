@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PartContent",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer" },
+    "text": { "type": "string", "maxLength": 420 },
+    "image_prompt": { "type": "string", "maxLength": 180 }
+  },
+  "required": ["id", "text", "image_prompt"]
+}
